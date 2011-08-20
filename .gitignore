@@ -1,0 +1,6 @@
+/nbproject/private/
+nbproject/*
+.buildpath
+.project
+.settings/*
+application/XML/*.xml
