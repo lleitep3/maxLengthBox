@@ -13,7 +13,7 @@ index.html
 <html>
     <head>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
-        <script src="https://github.com/lleitep3/maxLengthBox/blob/master/maxLengthBox.js"></script>
+        <script src="https://raw.github.com/lleitep3/maxLengthBox/master/maxLengthBox.js"></script>
         <script type="text/javascript">
             $('input').maxLengthBox({'fontColor': '#00ff00'});
             $('textarea').maxLengthBox();
