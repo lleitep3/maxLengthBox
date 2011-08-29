@@ -26,11 +26,11 @@
 
             // initialize plugin
             init : function(el){
-                el.delegate('focus',function(){
+                el.live('focus',function(){
                     methods.exec($(this));
                 });
 
-                el.delegate('keyup',function(){
+                el.live('keyup',function(){
                     methods.exec($(this));
                 });
 
