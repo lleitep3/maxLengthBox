@@ -1,77 +1,94 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset='utf-8'>
+    <head>
+        <meta charset='utf-8'>
 
-  <title>lleitep3/maxLengthBox @ GitHub</title>
+        <title>lleitep3/maxLengthBox @ GitHub</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="https://raw.github.com/lleitep3/maxLengthBox/master/maxLengthBox.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                $('input').maxLengthBox({'fontColor': '#000'});
+                $('textarea').maxLengthBox();
+            });
+        </script>
+        <title>MaxLengthBox</title>
 
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #b61119;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #ffffff;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #49eee6; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #49eee6; }
-    h3 { text-align: center; color: #49eee6; }
-    a { color: #49eee6; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-  </style>
-</head>
+        <style type="text/css">
+            body {
+                margin-top: 1.0em;
+                background-color: #b61119;
+                font-family: Helvetica, Arial, FreeSans, san-serif;
+                color: #ffffff;
+            }
+            #container {
+                margin: 0 auto;
+                width: 700px;
+            }
+            h1 { font-size: 3.8em; color: #49eee6; margin-bottom: 3px; }
+            h1 .small { font-size: 0.4em; }
+            h1 a { text-decoration: none }
+            h2 { font-size: 1.5em; color: #49eee6; }
+            h3 { text-align: center; color: #49eee6; }
+            a { color: #49eee6; }
+            .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
+            .download { float: right; }
+            pre { background: #000; color: #fff; padding: 15px;}
+            hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+            .footer { text-align:center; padding-top:30px; font-style: italic; }
+        </style>
+    </head>
 
-<body>
-  <a href="http://github.com/lleitep3/maxLengthBox"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+    <body>
+        <a href="http://github.com/lleitep3/maxLengthBox"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
 
-  <div id="container">
+        <div id="container">
 
-    <div class="download">
-      <a href="http://github.com/lleitep3/maxLengthBox/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/lleitep3/maxLengthBox/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
+            <div class="download">
+                <a href="http://github.com/lleitep3/maxLengthBox/zipball/master">
+                    <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
+                <a href="http://github.com/lleitep3/maxLengthBox/tarball/master">
+                    <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
+            </div>
+
+            <h1><a href="http://github.com/lleitep3/maxLengthBox">maxLengthBox</a>
+                <span class="small">by <a href="http://github.com/lleitep3">lleitep3</a></span></h1>
+
+            <div class="description">
+                uma boa interface para mostrar o limite de caracteres de um campo!!!
+            </div>
+
+            <h2>Authors</h2>
+            <ul>
+                <li>Leandro (lleitep3@gmail.com)</li>
+                <li>Thiago Avelino (thiagoavelinoster@gmail.com)</li>
+                <li>Jean Carlo Nascimento aka Suissa (jnascimeto@gmail.com)</li>
+            </ul>
+
+            <h2>Contact</h2>
+            <p>Leandro (lleitep3@gmail.com)</p>
+
+            <h2>Download</h2>
+            <p>
+                You can download this project in either
+                <a href="http://github.com/lleitep3/maxLengthBox/zipball/master">zip</a> or
+                <a href="http://github.com/lleitep3/maxLengthBox/tarball/master">tar</a> formats.
+            </p>
+            <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
+                by running:
+            <pre>$ git clone git://github.com/lleitep3/maxLengthBox</pre>
+        </p>
+
+        <div class="footer">
+            get the source code on GitHub : <a href="http://github.com/lleitep3/maxLengthBox">lleitep3/maxLengthBox</a>
+        </div>
+
+        <h2>Example</h2>
+        <input maxlength="20"> <br/>
+        <input maxlength="40"> <br/>
+        <input maxlength="10"> <br/>
+        <textarea maxlength="40"> </textarea>
+
     </div>
-
-    <h1><a href="http://github.com/lleitep3/maxLengthBox">maxLengthBox</a>
-      <span class="small">by <a href="http://github.com/lleitep3">lleitep3</a></span></h1>
-
-    <div class="description">
-      uma boa interface para mostrar o limite de caracteres de um campo!!!
-    </div>
-
-    <h2>Authors</h2>
-<p>Jean Carlo Nascimento aka Suissa (jnascimeto@gmail.com)<br/>Leandro (lleitep3@gmail.com)<br/>Thiago Avelino (thiagoavelinoster@gmail.com)<br/><br/>      </p>
-<h2>Contact</h2>
-<p>Leandro (lleitep3@gmail.com)<br/>      </p>
-
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/lleitep3/maxLengthBox/zipball/master">zip</a> or
-      <a href="http://github.com/lleitep3/maxLengthBox/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/lleitep3/maxLengthBox</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="http://github.com/lleitep3/maxLengthBox">lleitep3/maxLengthBox</a>
-    </div>
-
-  </div>
-
-  
 </body>
 </html>
