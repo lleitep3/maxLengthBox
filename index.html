@@ -14,22 +14,22 @@
         <title>MaxLengthBox</title>
 
         <style type="text/css">
-            body {
-                margin-top: 1.0em;
-                background-color: #b61119;
+            html{height:100%;}
+			body {
+                height:100%;
                 font-family: Helvetica, Arial, FreeSans, san-serif;
-                color: #ffffff;
+                color: #aaa;
             }
             #container {
-                margin: 0 auto;
+                margin: 1.0em auto;
                 width: 700px;
             }
-            h1 { font-size: 3.8em; color: #49eee6; margin-bottom: 3px; }
+            h1 { font-size: 3.8em; color: #666; margin-bottom: 3px; }
             h1 .small { font-size: 0.4em; }
             h1 a { text-decoration: none }
-            h2 { font-size: 1.5em; color: #49eee6; }
-            h3 { text-align: center; color: #49eee6; }
-            a { color: #49eee6; }
+            h2 { font-size: 1.5em; color: #666; }
+            h3 { text-align: center; color: #666; }
+            a { color: #666; }
             .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
             .download { float: right; }
             pre { background: #000; color: #fff; padding: 15px;}
@@ -87,7 +87,11 @@
         </div>
 
         <h2>Example</h2>
-
+	
+		<input type="text" maxlength="20"> 
+		<input type="text" maxlength="40"> 
+		<input type="text" maxlength="10"> 
+		<textarea maxlength="40"></textarea>
 
     </div>
 
